@@ -17,7 +17,7 @@ This is a sleek, highly-responsive, single-page professional portfolio meticulou
 
 ### 📑 Core Sections
 1. **Hero Intro:** A welcoming centralized introduction mapping out professional titles, integrated interactive FontAwesome social icons, and direct access to a downloadable PDF Resume.
-2. **Featured Portfolio:** Neatly mapped Grid cards utilizing an "Image-Left / Description-Right" split structure. These cards display project snapshots alongside descriptive feature lists and precise tech-stack badging (e.g., React, Node.js).
+2. **Featured Portfolio:** Neatly mapped Grid cards utilizing an "Image-Left / Description-Right" split structure. These cards display project snapshots using Bootstrap 5 Carousels to support multiple images per project, alongside descriptive feature lists, precise tech-stack badging (e.g., React, Node.js), and fully functional active links (Live Site & GitHub) opening seamlessly in new tabs.
 3. **Skills & Expertise Array:** A robust data presentation categorizing developer strength into clear tiers: *Expertise, Comfortable, Familiar,* and *Tools*, rendering dynamic CSS-styled tech-tags next to educational credentials.
 4. **Contact Gateway:** An interactive form styled to perfectly match the site's dark aesthetic, inviting users to reach out directly.
 
@@ -47,7 +47,9 @@ Portfolio-Site/
 │   └── rafi.jfif            # Profile picture used within the Hero section
 ├── projects-img/
 │   ├── space-tourism.png    # Preview of the Space Tourism project
-│   └── eschool.png          # Preview of the Online School project
+│   ├── slider1.png          # Secondary slider image for Space Tourism
+│   ├── eschool.png          # Preview of the Online School project
+│   └── slider2.png          # Secondary slider image for Online School
 ├── resume/
 │   └── riz_v2.pdf           # Target PDF for the Resume download functionality
 ├── index.html               # The singular HTML core markup
